@@ -1,0 +1,466 @@
+/* 00. fonts and colors */
+/* 01. general */
+/* 02. header */
+/* 03. index */
+/* 03.01 podrska */
+/* 03.02 recepti */
+/* 03.02.2 proizvodi*/
+/* 03.03 kontakt */
+/* 03.04 galerija */
+/* 04. footer */
+/* 05. media query */
+
+
+/* 00. fonts and colors (X is used font) 
+
+font-family: 'EB Garamond', serif;
+
+font-family: 'Open Sans', sans-serif;
+
+X font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Raleway', sans-serif;*/
+
+
+/* 01. general */
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.43;
+	color: #333;
+	letter-spacing: 1.5px;
+}
+
+li {
+	list-style: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* 02. header */
+
+.header-cover {
+	height: 17vh;
+	background-image: url(cov2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 45%;
+}
+
+.bg-faded {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid #4d3219;
+	box-shadow: 0 2px 7px #4d3219;
+}
+
+.navbar-brand {
+	max-width: 200px;
+}
+
+.logo_weed {
+	width: 245px;
+	height: 76px;
+}
+
+.logo_img {
+	max-width: 195px;
+}
+
+.nav-item {
+	font-size: 1.10rem;
+}
+
+.nav_fa {
+	font-size: 1.40rem;
+}
+
+.fa_green {
+	color: green; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #4d1300;
+}
+
+.active-link, .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: green;
+	background-color: #e6e6e6;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+ }
+
+.navbar-toggler {
+	background-color: #090;
+	font-size: 0.8rem;
+	cursor: pointer;
+}
+
+.navbar-toggler-icon {
+	background-color: #090;
+}	
+
+.fa_green:hover {
+	color: #00b300;
+	text-shadow: 0 0 1px green;
+}
+
+/* 03. index */
+
+/* carousel */
+.carousel-item {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.carousel-item img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.carousel-indicators li {
+	max-width: 12px;
+	height: 12px;
+	border-radius: 25%;
+	background-color: darkorange;
+}
+
+/* garden icons */
+.garden_icon {
+	width: 90px;
+}
+ /* artikli */
+.row_main_home {
+	background-color: white;
+}
+
+.img-sadnja1 {
+	width: 100%;
+	object-fit: cover;
+}
+
+/* 03.01 podrska */
+
+.garden_icon1-1 {
+	width: 150px;
+}
+
+.podrska_logo {
+	width: 160px;
+	height: 160px;
+}
+
+.podrska_logo3 {
+	width: 160px;
+	height: 135px;
+}
+
+.podrska_intro_txt {
+	color: green;
+}
+
+.podrska_text {
+	color: #4d1300;
+}
+
+.podrska_h4 {
+	color: #360;
+}
+
+/* 03.02 recepti */
+
+/*proba*/
+.sadrzaj-tekst1 {
+    width:40%;
+    display:inline-block;
+}
+
+.sadrzaj-tekst2 {
+    width:40%;
+    display:inline-block;
+}
+
+
+.food_icon {
+    width: 85px;  
+}
+
+.main_recepts_row {
+	color: #4d1300; 
+}
+
+.card-header {
+    background-color: #cf9;
+    border: 1px solid green;
+    color: #331a00;
+ }
+
+.recept-img {
+	height: auto;
+	margin-top: -110px;
+}
+
+/*kolaps*/
+.btn-recept {
+	color: darkgreen;
+	font-family: inherit;
+	font-weight: 600;
+	border: 1px solid transparent;
+	padding: 5px;
+	font-size: 13px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.btn-holder {
+	width: 95%;
+}
+
+.btn:hover {
+	text-decoration: none;
+	background-color: #cf9;
+}
+
+.recept_list_1 {
+	list-style-type: upper-alpha;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.recept_list_1 span {
+	font-weight: normal;
+}
+
+.recept_list_2 {
+	list-style-type: decimal;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.recept_list_2 span {
+	font-weight: normal;
+}
+
+/*03.02.2 proizvodi*/
+
+.proizvod-img2 {
+	max-width: 400px;
+	height: auto;
+	margin-top: -110px;
+	margin-right: -16px;
+	float: right;
+}
+
+.card-header2 {
+    background-color:  #004d00;
+    color: whitesmoke;
+ }
+
+/* 03.03 kontakt */
+	
+/* contact info i mapa*/
+.contact-icon {  
+background-color: whitesmoke;
+}
+
+.fa-handshake-o {
+	font-size: 70px;
+	color: #333;
+}
+
+.contact-container {
+	border-bottom: 1px solid whitesmoke;
+	background-color: whitesmoke;
+}
+
+.fa-contact {
+	font-size: 25px;
+	color: green;
+}
+
+.contact-text {
+	font-size: 16px;
+	color: green;
+}
+
+.contact-text:hover {
+	color: #1cb01c;
+	/*text-shadow: 0 0 1px green;*/
+}
+
+.fa-contact:hover {
+	color: #1cb01c;
+	/*text-shadow: 0 0 1px white;*/
+}
+
+.map-contact {
+	height: 60vh;
+	background-image: url(db-mapa.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid green;
+}
+
+/* 03.04 galerija */
+
+.camera-icon {
+	width: 75px;
+}
+
+.modal-dialog-p {
+	width: 35vw; 
+	min-width: 280px; 
+	height: auto;
+}
+
+.modal-dialog-h {
+	width: 60vw; 
+	min-width: 320px; 
+	max-height: auto;
+}
+
+.modal-body-p, .modal-body-h {
+	position: relative;
+}
+
+.modal-button-p, .modal-button-h {
+	position: absolute; 
+	top: 18px; 
+	left: 20px;
+}
+
+.modal-span-p, .modal-span-h {
+	color: whitesmoke; 
+	opacity: 1;
+}
+
+.enlargeImageModalSource-p, .enlargeImageModalSource-p {
+	width: 100%;
+}
+
+.gallery-img {
+	-webkit-transition: 0.4s;
+	cursor: zoom-in;
+}
+
+.gallery-img:hover {
+	transform: scale(1.05, 1.05);
+	-webkit-transition: 0.4s;
+}
+
+.gallery-col-div {
+	overflow: hidden;
+}
+
+/* 04. footer */
+
+footer {
+	background-color: #261a0d;
+	color: whitesmoke;
+}
+
+.footer-column-bcg-color, .footer_container {
+	background-color: #261a0d;
+}
+
+.fb_feed_container {
+	margin-bottom: -15px;
+}
+
+.organic {
+	width: 120px;
+}
+
+.fa_footer {
+	font-size: 23px;
+}
+
+.footer_ul {
+	font-size: 19px;
+}
+
+.list_title {
+	font-size: 15px;
+}
+
+.list_contact {
+	font-size: 15px;
+	color: #bfbfbf;
+}
+
+.footer_ul li a {
+	color: green;
+}
+
+.footer_ul li a:hover {
+	color: #00b300;
+	text-shadow: 0 0 3px #00b300;
+}
+
+.fa_static {
+	font-size: 18px;
+	color: #999;
+}
+
+/* 05. media query */
+ 
+/* header */
+
+@media screen and (max-width: 991px) {
+	.navbar-nav {
+		margin-top: 22px;
+	}
+}
+
+/* recepti */
+@media screen and (max-width: 768px) {
+	.recept-img {
+		margin-top: 0;
+	}
+
+}
+
+/*proizvod*/
+@media screen and (max-width: 768px) {
+	.proizvod-img2 {
+		max-width: 100vw;
+		margin: 0 auto 0;
+
+		float: none;
+	}
+}
+
+/* footer */
+@media screen and (max-width: 767px) {
+	.mq_order {
+		order: 3;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.fb-mquery-hide {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 855px) {
+	.fb-mquery-show {
+		display: none;
+	}
+}
+
+/* TEST area*/
+
+
+
